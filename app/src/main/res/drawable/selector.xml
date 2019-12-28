@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/check"
+        android:drawable="@drawable/vd_check"
+        android:state_checked="true"/>
+
+    <item
+        android:id="@+id/square"
+        android:drawable="@drawable/vd_square"/>
+
+    <transition
+        android:drawable="@drawable/avd_square_to_check"
+        android:fromId="@id/square"
+        android:toId="@id/check"/>
+
+    <transition
+        android:drawable="@drawable/avd_check_to_square"
+        android:fromId="@id/check"
+        android:toId="@id/square"/>
+
+
+</animated-selector>
