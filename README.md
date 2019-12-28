@@ -1,3 +1,1 @@
-for Behnam Mohammadi's challenge.
-
-![Demo](demo.gif)
+for Behnam Mohammadi's challenge
